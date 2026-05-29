@@ -1,0 +1,36 @@
+# ─── Instructor-only docs (do not publish to students) ───────
+ARCHITECTURE.md
+TEACHING_SCRIPT.md
+
+# ─── AgentCore generated files ───────────────────────────────
+.bedrock_agentcore.yaml
+Dockerfile
+.dockerignore
+
+# ─── Generated agent files ───────────────────────────────────
+strands_meal_planner.py
+meal_planner.py
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# ─── Jupyter ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── AWS / credentials ───────────────────────────────────────
+*.pem
+.aws/
+credentials
+
+# ─── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
